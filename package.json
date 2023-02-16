@@ -1,6 +1,6 @@
 {
   "name": "nuxt-bunny-fonts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bunny Fonts for Nuxt 3",
   "license": "MIT",
   "type": "module",
