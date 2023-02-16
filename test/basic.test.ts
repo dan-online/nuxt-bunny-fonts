@@ -20,7 +20,7 @@ describe("ssr w/ fonts", async () => {
 			`<link rel="preconnect" href="https://fonts.bunny.net">`,
 		);
 		expect(html).toContain(
-			`<link rel="stylesheet" href="https://fonts.bunny.net/css?family=ABeeZee:500,700">`,
+			`<link rel="stylesheet" href="https://fonts.bunny.net/css?family=ABeeZee:500,700&display=swap">`,
 		);
 	});
 });
