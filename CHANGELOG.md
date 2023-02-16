@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.1.0
+
+
+### 🚀 Enhancements
+
+  - **empty:** Filter no weight (d0eacfd)
+
+### ❤️  Contributors
+
+- DanCodes <dan@dancodes.online>
+
 ## v0.0.3
 
 ## v0.0.2
