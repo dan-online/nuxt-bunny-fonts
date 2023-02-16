@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.1.1
+
+
+### 🩹 Fixes
+
+  - **display:** Use swap by default (1336832)
+
+### ❤️  Contributors
+
+- DanCodes <dan@dancodes.online>
+
 ## v1.1.0
 
 
