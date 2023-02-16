@@ -1,6 +1,6 @@
 {
   "name": "nuxt-bunny-fonts",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Bunny Fonts for Nuxt 3",
   "license": "MIT",
   "type": "module",
@@ -21,7 +21,7 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "npm run lint && npm run test && npm run prepack && changelogen --no-tag --release && npm publish && git push --follow-tags",
     "lint": "rome check src/*.ts",
     "test": "vitest run",
     "test:watch": "vitest watch"

@@ -15,12 +15,14 @@ export default defineNuxtModule<ModuleOptions>({
 		fonts: {},
 	},
 	setup(options, nuxt) {
-		const fonts = Object.entries(options.fonts).map(([family, weights]) => {
-			return {
-				family,
-				weights,
-			};
-		});
+		const fonts = Object.entries(options.fonts)
+			.map(([family, weights]) => {
+				return {
+					family,
+					weights,
+				};
+			})
+			.filter((font) => font.weights.length > 0);
 
 		if (fonts.length < 1) {
 			return;
