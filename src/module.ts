@@ -2,8 +2,10 @@ import { defineNuxtModule } from "@nuxt/kit";
 import { name } from "../package.json";
 
 // Module options TypeScript inteface definition
+export type Font = Record<string, number[]>;
+
 export interface ModuleOptions {
-	fonts: Record<string, number[]>; // { 'Roboto': [400, 500, 700] }
+	families: Font,
 	swap?: boolean;
 }
 
@@ -25,11 +27,11 @@ export default defineNuxtModule<ModuleOptions>({
 		configKey: "bunnyFonts",
 	},
 	defaults: {
-		fonts: {},
+		families: {},
 		swap: true,
 	},
 	setup(options, nuxt) {
-		const fonts = Object.entries(options.fonts)
+		const fonts = Object.entries(options.families)
 			.map(([family, weights]) => {
 				return {
 					family,

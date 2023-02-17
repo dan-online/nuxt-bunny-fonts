@@ -6,7 +6,7 @@ describe("ssr w/ fonts", async () => {
 	await setup({
 		nuxtConfig: {
 			bunnyFonts: {
-				fonts: {
+				families: {
 					ABeeZee: [500, 700],
 				},
 			},

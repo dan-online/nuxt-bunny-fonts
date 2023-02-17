@@ -30,11 +30,11 @@ Check out all the fonts you can use at [Bunny Fonts](https://fonts.bunny.net/)
 1. Add `nuxt-bunny-fonts` dependency to your project
 
 ```bash
-# Using pnpm
-pnpm add -D nuxt-bunny-fonts
-
 # Using yarn
 yarn add --dev nuxt-bunny-fonts
+
+# Using pnpm
+pnpm add -D nuxt-bunny-fonts
 
 # Using npm
 npm install --save-dev nuxt-bunny-fonts
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
     'nuxt-bunny-fonts'
   ],
   bunnyFonts: {
-    fonts: {
+    families: {
       Montserrat: [300, 400, 700],
     }
   }
@@ -56,6 +56,29 @@ export default defineNuxtConfig({
 ```
 
 That's it! You can now use Nuxt Bunny Fonts in your Nuxt app ✨
+
+## Migrate
+
+Migrating from google-fonts to bunny-fonts is easy:
+
+1. Remove `@nuxtjs/google-fonts` from your `modules` section of `nuxt.config.ts`
+2. Add `nuxt-bunny-fonts` to your `modules` section of `nuxt.config.ts`
+3. Change the `googleFonts` property to `bunnyFonts` in your `nuxt.config.ts`
+
+```diff
+export default defineNuxtConfig({
+  modules: [
+-  '@nuxtjs/google-fonts',
++  'nuxt-bunny-fonts'
+  ],
+- googleFonts: {
++ bunnyFonts: {
+    families: {
+      Montserrat: [300, 400, 700],
+    }
+  }
+})
+```
 
 ## Development
 

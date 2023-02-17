@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
 	modules: ["../src/module"],
 	bunnyFonts: {
-		fonts: {
+		families: {
 			ABeeZee: [500, 700],
 		},
 	},
