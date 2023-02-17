@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v1.1.2
+
+
+### 🩹 Fixes
+
+  - **config:** Parity with google fonts (ab0db27)
+
+### 🏡 Chore
+
+  - **cleanup:** Regen yarn and fix test (b1f604b)
+
+### ❤️  Contributors
+
+- DanCodes <dan@dancodes.online>
+
 ## v1.1.1
 
 
