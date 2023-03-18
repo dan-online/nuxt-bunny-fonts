@@ -39,5 +39,5 @@
     "rome": "^11.0.0",
     "vitest": "^0.29.3"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.5.0"
 }
