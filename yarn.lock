@@ -2001,9 +2001,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@nuxt/kit@npm:4.0.0"
+"@nuxt/kit@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@nuxt/kit@npm:4.0.1"
   dependencies:
     c12: ^3.1.0
     consola: ^3.4.2
@@ -2026,7 +2026,7 @@ __metadata:
     unctx: ^2.4.1
     unimport: ^5.1.0
     untyped: ^2.0.0
-  checksum: 5f266b250a1be121d34e16aeb8528c1a830213774575739e8258267b514ddd8faf9f8a95066170cf8db848b0b5a54cafb93fe69e0b44c61cdfd38355e07fa20e
+  checksum: 9d602e78037a882b028382b0add9e7957be976fa167dbffd02482beb4a232a8d560bf8e1584321d7e57b79ba06c493df1116e9c699ec258353ed7f70ed32f2f8
   languageName: node
   linkType: hard
 
@@ -7652,7 +7652,7 @@ __metadata:
   resolution: "nuxt-bunny-fonts@workspace:."
   dependencies:
     "@biomejs/biome": ^2.0.4
-    "@nuxt/kit": ^4.0.0
+    "@nuxt/kit": ^4.0.1
     "@nuxt/module-builder": ^0.3.0
     "@nuxt/schema": ^4.0.0
     "@nuxt/test-utils": ^3.4.1
