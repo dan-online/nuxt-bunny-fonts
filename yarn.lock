@@ -2001,11 +2001,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "@nuxt/kit@npm:4.0.2"
+"@nuxt/kit@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@nuxt/kit@npm:4.0.3"
   dependencies:
-    c12: ^3.1.0
+    c12: ^3.2.0
     consola: ^3.4.2
     defu: ^6.1.4
     destr: ^2.0.5
@@ -2026,7 +2026,7 @@ __metadata:
     unctx: ^2.4.1
     unimport: ^5.2.0
     untyped: ^2.0.0
-  checksum: d49e43303ef2cb7113ecadb05d9c3d3271eb878b90271cdf27bffdf32a227e1eee53800f9e9d3ed5d7eb520727fdc63c5cc77631666aae1f477a65e3e01e82a3
+  checksum: 32309d12742d8dbd6df6e4ec7f7d7bc447a31ac4baed218ac181968c26ad3ab9620bc516e34f7ec3a17dd1874659c5bbe66b122f240e04b458be52de4924f541
   languageName: node
   linkType: hard
 
@@ -3715,17 +3715,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c12@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "c12@npm:3.1.0"
+"c12@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "c12@npm:3.2.0"
   dependencies:
     chokidar: ^4.0.3
     confbox: ^0.2.2
     defu: ^6.1.4
-    dotenv: ^16.6.1
+    dotenv: ^17.2.1
     exsolve: ^1.0.7
     giget: ^2.0.0
-    jiti: ^2.4.2
+    jiti: ^2.5.1
     ohash: ^2.0.11
     pathe: ^2.0.3
     perfect-debounce: ^1.0.0
@@ -3736,7 +3736,7 @@ __metadata:
   peerDependenciesMeta:
     magicast:
       optional: true
-  checksum: 17662a910645cec7cff6624472b1bcb8fecd9c7274dc44fa06099232facf6bd55ad933dcc599419a5dadb897dcba805c538e229f486bff94c5991a97fa139fc6
+  checksum: 8bdc881268293b20fe64d3bcf6cebcc2201c4b45499ec4231b537d464a7fde0fbd4e2f7be9f8d8cb13f2868876f0a7aea22f1f0a18e65b393bd55fa768cb189d
   languageName: node
   linkType: hard
 
@@ -4751,10 +4751,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.6.1":
-  version: 16.6.1
-  resolution: "dotenv@npm:16.6.1"
-  checksum: e8bd63c9a37f57934f7938a9cf35de698097fadf980cb6edb61d33b3e424ceccfe4d10f37130b904a973b9038627c2646a3365a904b4406514ea94d7f1816b69
+"dotenv@npm:^17.2.1":
+  version: 17.2.1
+  resolution: "dotenv@npm:17.2.1"
+  checksum: 2a3842a5451eb64f41cd11bd30d4d9d83941058f952f5e3adc3ca470d381e46ed8acbb0c0e3059da9725df91b42796987fa1deb032fafac992c37b94870ef085
   languageName: node
   linkType: hard
 
@@ -7661,7 +7661,7 @@ __metadata:
   resolution: "nuxt-bunny-fonts@workspace:."
   dependencies:
     "@biomejs/biome": ^2.0.4
-    "@nuxt/kit": ^4.0.2
+    "@nuxt/kit": ^4.0.3
     "@nuxt/module-builder": ^0.3.0
     "@nuxt/schema": ^4.0.0
     "@nuxt/test-utils": ^3.4.1
