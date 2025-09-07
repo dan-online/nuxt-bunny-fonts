@@ -2001,9 +2001,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "@nuxt/kit@npm:4.0.3"
+"@nuxt/kit@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "@nuxt/kit@npm:4.1.1"
   dependencies:
     c12: ^3.2.0
     consola: ^3.4.2
@@ -2014,10 +2014,11 @@ __metadata:
     ignore: ^7.0.5
     jiti: ^2.5.1
     klona: ^2.0.6
-    mlly: ^1.7.4
+    mlly: ^1.8.0
     ohash: ^2.0.11
     pathe: ^2.0.3
-    pkg-types: ^2.2.0
+    pkg-types: ^2.3.0
+    rc9: ^2.1.2
     scule: ^1.3.0
     semver: ^7.7.2
     std-env: ^3.9.0
@@ -2026,7 +2027,7 @@ __metadata:
     unctx: ^2.4.1
     unimport: ^5.2.0
     untyped: ^2.0.0
-  checksum: 32309d12742d8dbd6df6e4ec7f7d7bc447a31ac4baed218ac181968c26ad3ab9620bc516e34f7ec3a17dd1874659c5bbe66b122f240e04b458be52de4924f541
+  checksum: 294d99f4ee9b3d1b0dbe10235be7ec4e926a1a3fef41e141fd733663d9a89440237e78724c80b85480b71df4b6f001c5c4c968568dacdf048c6bef1ce7d568c0
   languageName: node
   linkType: hard
 
@@ -7291,6 +7292,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mlly@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "mlly@npm:1.8.0"
+  dependencies:
+    acorn: ^8.15.0
+    pathe: ^2.0.3
+    pkg-types: ^1.3.1
+    ufo: ^1.6.1
+  checksum: cccd626d910f139881cc861bae1af8747a0911c1a5414cca059558b81286e43f271652931eec87ef3c07d9faf4225987ae3219b65a939b94e18b533fa0d22c89
+  languageName: node
+  linkType: hard
+
 "mri@npm:^1.2.0":
   version: 1.2.0
   resolution: "mri@npm:1.2.0"
@@ -7661,7 +7674,7 @@ __metadata:
   resolution: "nuxt-bunny-fonts@workspace:."
   dependencies:
     "@biomejs/biome": ^2.0.4
-    "@nuxt/kit": ^4.0.3
+    "@nuxt/kit": ^4.1.1
     "@nuxt/module-builder": ^0.3.0
     "@nuxt/schema": ^4.0.0
     "@nuxt/test-utils": ^3.4.1
@@ -8151,7 +8164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg-types@npm:^1.3.0":
+"pkg-types@npm:^1.3.0, pkg-types@npm:^1.3.1":
   version: 1.3.1
   resolution: "pkg-types@npm:1.3.1"
   dependencies:
@@ -8170,6 +8183,17 @@ __metadata:
     exsolve: ^1.0.7
     pathe: ^2.0.3
   checksum: cdb3a4c88c93232bbad2e41cd7ca0f9e2e22acc4f16ad5a313736aacccb68ee157a0c1af81c2d7269744e716b9f6b01b3ad7b8abf0eb8b3e12c1f7d2c47c7597
+  languageName: node
+  linkType: hard
+
+"pkg-types@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "pkg-types@npm:2.3.0"
+  dependencies:
+    confbox: ^0.2.2
+    exsolve: ^1.0.7
+    pathe: ^2.0.3
+  checksum: 33c30b442662a0f2b62fd16f39ae2beeb4cdf3511699e574765b7451e179937847de6e696bbab50bfbd41d2c2e4a99b61ebc7078abf91ea8573a7f16cc11d26a
   languageName: node
   linkType: hard
 
