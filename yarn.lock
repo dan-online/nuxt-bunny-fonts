@@ -2064,7 +2064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/schema@npm:3.12.4, @nuxt/schema@npm:^3.12.3":
+"@nuxt/schema@npm:3.12.4":
   version: 3.12.4
   resolution: "@nuxt/schema@npm:3.12.4"
   dependencies:
@@ -2105,16 +2105,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/schema@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@nuxt/schema@npm:4.0.0"
+"@nuxt/schema@npm:^3.12.3":
+  version: 3.21.11
+  resolution: "@nuxt/schema@npm:3.21.11"
   dependencies:
-    "@vue/shared": ^3.5.17
-    consola: ^3.4.2
-    defu: ^6.1.4
+    "@vue/shared": ^3.5.40
+    defu: ^6.1.7
     pathe: ^2.0.3
-    std-env: ^3.9.0
-  checksum: f7b7a33caf0a4c3c26eb70da248239e9353f1715cd2c3ce5251a7d22f38055aab1a6932d362808ff3c24d277f5e21a9bb920f40dd1e91c41e7f542c4a80007c6
+    pkg-types: ^2.3.1
+    std-env: ^4.2.0
+  checksum: eb2e9392440f285957d2ba614572c841c78ee59ed53b4ff43af3aeda66f4018c00547fb6906e866489998677cab0ceae79ed920551dbef78d3489a56371d4c47
+  languageName: node
+  linkType: hard
+
+"@nuxt/schema@npm:^4.0.0":
+  version: 4.6.4
+  resolution: "@nuxt/schema@npm:4.6.4"
+  dependencies:
+    "@vue/shared": ^3.5.44
+    defu: ^6.1.7
+    nostics: ^1.3.0
+    pathe: ^2.0.3
+    pkg-types: ^2.4.0
+    std-env: ^4.3.0
+  checksum: f071e420a6c5c9da95c863f50b32faaf9391a1e01971383607b14d3cfba5396ea45342692f30b1b251f489ce4f1202afe1cde4d9d7b5f3cac0f409be3b5534a4
   languageName: node
   linkType: hard
 
@@ -3187,10 +3201,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/shared@npm:^3.5.17":
-  version: 3.5.17
-  resolution: "@vue/shared@npm:3.5.17"
-  checksum: 9e715233214deda4465689b90717ed8c300f581b8b742cf9b4c662dd25c4ce98228e963a2d6e531f53b326c9aa7a7dad4db7750eaa19ffbc51e69f8b72a711f0
+"@vue/shared@npm:^3.5.40, @vue/shared@npm:^3.5.44":
+  version: 3.5.46
+  resolution: "@vue/shared@npm:3.5.46"
+  checksum: e6c461620c9835135a86c32fe822b2b8e19520924d2848c5c3547668fc7a80801e040c44cddc67211e82fb96cc5bc44a0bb51be45848499313c3ea4ddaedf4c1
   languageName: node
   linkType: hard
 
@@ -4198,6 +4212,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"confbox@npm:^0.3.1":
+  version: 0.3.2
+  resolution: "confbox@npm:0.3.2"
+  checksum: 7e0d646636d6fea4ff957995f01f7e33f9980392577d1d6a8ceaa5a82d0e6b56d303ce01d7a0da560b4a9946488706628d5d74493b42edb371b69107707afd88
+  languageName: node
+  linkType: hard
+
 "consola@npm:^3.0.1, consola@npm:^3.0.2":
   version: 3.0.2
   resolution: "consola@npm:3.0.2"
@@ -4610,6 +4631,13 @@ __metadata:
   version: 6.1.4
   resolution: "defu@npm:6.1.4"
   checksum: 40e3af6338f195ac1564f53d1887fa2d0429ac7e8c081204bc4d29191180059d3952b5f4e08fe5df8d59eb873aa26e9c88b56d4fac699673d4a372c93620b229
+  languageName: node
+  linkType: hard
+
+"defu@npm:^6.1.7":
+  version: 6.1.7
+  resolution: "defu@npm:6.1.7"
+  checksum: aeca3fc4a1e9f5a99c8b2cd3efa478dbbda1b344e3facfbe750e8b10d8ec48ede08560108f58363e9b8b8687d9ccb68faf0ba24833e267a0f1c0518c89fdabfe
   languageName: node
   linkType: hard
 
@@ -5463,6 +5491,13 @@ __metadata:
   version: 1.0.7
   resolution: "exsolve@npm:1.0.7"
   checksum: 3adce048e4b1b08580aaabf38c7f92f78e1a662a1776fc02d7e9500d5ce4a30cd3f8e62206768821aa2c3bc2411a699146ebc5710ccc3d46e91199dbfff89f54
+  languageName: node
+  linkType: hard
+
+"exsolve@npm:^1.1.3":
+  version: 1.2.0
+  resolution: "exsolve@npm:1.2.0"
+  checksum: a6eeb0903f21411010d2b188cc892778c0d8e90ffcba7a26c0fddd178e379baac3f33b14c1210f577f65aae6f949eb16086a54ebc975f9515483ffc656042b5c
   languageName: node
   linkType: hard
 
@@ -7636,6 +7671,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nostics@npm:^1.3.0":
+  version: 1.4.0
+  resolution: "nostics@npm:1.4.0"
+  checksum: c27d65cd9ee6e583e5e4215eea98bede4e459eb4fa96d933fe74cf044435845c9042e1e452177b977c22c01bfbd6858adb759fc1317744b73dd9e37b1dd08150
+  languageName: node
+  linkType: hard
+
 "npm-run-path@npm:^4.0.1":
   version: 4.0.1
   resolution: "npm-run-path@npm:4.0.1"
@@ -8236,6 +8278,17 @@ __metadata:
     exsolve: ^1.0.7
     pathe: ^2.0.3
   checksum: 33c30b442662a0f2b62fd16f39ae2beeb4cdf3511699e574765b7451e179937847de6e696bbab50bfbd41d2c2e4a99b61ebc7078abf91ea8573a7f16cc11d26a
+  languageName: node
+  linkType: hard
+
+"pkg-types@npm:^2.3.1, pkg-types@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "pkg-types@npm:2.4.0"
+  dependencies:
+    confbox: ^0.3.1
+    exsolve: ^1.1.3
+    pathe: ^2.0.3
+  checksum: b388a6096b113e2349863d6596073f03dade98cd7408abfabc92fe1c3f2c2c501a69a3c34677840a071bfeea05cb6aaee3b644928b297244881263b76270e19d
   languageName: node
   linkType: hard
 
@@ -9422,6 +9475,13 @@ __metadata:
   version: 3.9.0
   resolution: "std-env@npm:3.9.0"
   checksum: d40126e4a650f6e5456711e6c297420352a376ef99a9599e8224d2d8f2ff2b91a954f3264fcef888d94fce5c9ae14992c5569761c95556fc87248ce4602ed212
+  languageName: node
+  linkType: hard
+
+"std-env@npm:^4.2.0, std-env@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "std-env@npm:4.3.0"
+  checksum: e256a94adec5d558c4af45c1dc3eabbdb805ef40be8641db007ac3b9b563eeec643f429044288fe96dee8a59435eac061b8f7d52e721e233514e98182135f971
   languageName: node
   linkType: hard
 
